@@ -58,6 +58,37 @@
           ]
         }
       }
+    },
+    "HaydnCraig": {
+      "colors_solid_button_labels": "#191919",
+      "colors_accent_1": "#265C72",
+      "colors_accent_2": "#327B99",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#3E9AC0",
+      "colors_background_1": "#191919",
+      "colors_background_2": "#333333",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "color_scheme": "accent-1"
+          },
+          "blocks": {
+            "menu": {
+              "type": "link_list"
+            },
+            "text": {
+              "type": "text"
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ]
+        }
+      }
     }
   }
 }
