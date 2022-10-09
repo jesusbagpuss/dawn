@@ -2966,7 +2966,7 @@ details-disclosure > details {
 }
 .product-form__input input[type="radio"]:checked + .colour-swatch,
 .product-form__input input[type="radio"]:hover + .colour-swatch {
-  border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
+  border: 3px solid rgb(var(--color-foreground));
 }
 .product-form__input input[type="radio"]:checked + label.colour-swatch:before {
   content: "✔";
