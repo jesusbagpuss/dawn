@@ -2971,9 +2971,10 @@ details-disclosure > details {
 .product-form__input input[type="radio"]:checked + label.colour-swatch:before {
   content: "✔";
   font-family: 'lucida grande';
-  font-size: 45px;
-  line-height: 60px;
+  font-size: 30px;
+  line-height: 38px;
   text-align: center;
+  z-index: inherit;
 }
 .product-form__input input[type="radio"] + .swatch {
   border: 3px solid rgb(var(--color-background));
