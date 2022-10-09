@@ -2959,7 +2959,7 @@ details-disclosure > details {
 }
 
 .product-form__input input[type="radio"] + .colour-swatch {
-  border: 3px solid #f4f5ff; /* Change this hex code to change the color of the non-active/non-selected variant */
+  border: 3px solid rgb(var(--color-background));
   width: 40px;
   height: 40px;
   padding: 0;
@@ -2969,7 +2969,7 @@ details-disclosure > details {
   border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
 }
 .product-form__input input[type="radio"] + .swatch {
-  border: 3px solid #f4f5ff; /* Change this hex code to change the color of the non-active/non-selected variant */
+  border: 3px solid rgb(var(--color-background));
   width: 40px;
   height: 40px;
   padding: 0;
