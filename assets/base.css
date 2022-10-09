@@ -2983,3 +2983,14 @@ details-disclosure > details {
   border: 3px solid #ccd1d1; /* Change this hex code to change the color of the active/selected variant */
   background: none;
 }
+
+span.colour-swatch {
+  border: 3px solid #f4f5ff; 
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
